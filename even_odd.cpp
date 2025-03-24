@@ -1,4 +1,4 @@
-/*#include<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 int main(){
     int a;
@@ -10,7 +10,7 @@ int main(){
     else{
         cout<<"num is odd";
     }
-}*/
+}
 
 
 //checking without using modulo operator

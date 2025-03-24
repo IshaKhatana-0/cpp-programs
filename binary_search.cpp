@@ -5,8 +5,8 @@
 using namespace std;
 int binarysearch(vector<int>arr, int x){
     int low=0,high=arr.size()-1;
-    int mid=(low+high)/2;
     while(low<=high){
+        int mid=(low+high)/2;
         if(arr[mid]==x) return mid;
         else if(arr[mid]>x) high=mid-1;
         else low =mid+1;
@@ -16,5 +16,5 @@ int binarysearch(vector<int>arr, int x){
     }
 int main(){
     vector<int>arr ={1,2,3,4,5};
-    cout<<binarysearch(arr,3);
+    cout<<binarysearch(arr,4);
 }

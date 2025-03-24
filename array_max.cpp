@@ -1,19 +1,19 @@
 //find maximum element in array
 
-// #include<bits/stdc++.h>
-// using namespace std;
-// int main(){ 
-//     int arr[]={1,2,3,4,5};
-//     int max=1;
-//     for (int i=0;i<5;i++){
-//         if(max<arr[i]){
-//             max=arr[i];
-//         }
+#include<bits/stdc++.h>
+using namespace std;
+int main(){ 
+    int arr[]={1,2,3,4,5};
+    int max=1;
+    for (int i=0;i<5;i++){
+        if(max<arr[i]){
+            max=arr[i];
+        }
         
-//     }
-//     cout<<"max is "<<max;
-//     return 0;
-// }
+    }
+    cout<<"max is "<<max;
+    return 0;
+}
 
 //find second last maximum element
 
