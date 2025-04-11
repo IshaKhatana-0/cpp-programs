@@ -18,7 +18,7 @@ void selectionsort(vector<int>&arr){
 int main(){
     vector<int>arr = {2,1,4,3,5};
     selectionsort(arr);
-    for(int i=0;i<arr.size();i++){
+    for(int i=0; i<arr.size();i++){
         cout<<arr[i]<<endl;
     }
 

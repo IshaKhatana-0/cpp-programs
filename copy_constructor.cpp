@@ -11,6 +11,6 @@ using namespace std;
     t1.a=10;
     t1.b=20;
 
-    Test t2=t1;
+    Test t2=t1; 
     cout<<t2.a;
  }

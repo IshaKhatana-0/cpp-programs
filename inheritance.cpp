@@ -5,7 +5,7 @@ class Base{
         int a=10;
         int b=20;
         void sum(){
-            cout<<"base clas"<<endl;
+            cout<<"base class"<<endl;
         }
         // Base(){
         //     cout<<"base class constructor"<<endl;

@@ -1,7 +1,7 @@
 //conditions for function overloading(any one) : name should be same of both functions
 //type of argument different
 //no of argument different
-//order of argument different(first int double then first double int
+//order of argument different(first int double then first double int)
 #include<bits/stdc++.h>
 using namespace std;
 class Test{

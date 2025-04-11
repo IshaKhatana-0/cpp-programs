@@ -1,4 +1,4 @@
-//if there is atleast one constructor is code then default constructor is not called
+//if there is atleast one constructor in code then default constructor is not called
 //constructor do not have  its return value
 
 class Test{
